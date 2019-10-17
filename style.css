@@ -1,55 +1,39 @@
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,700&display=swap&subset=chinese-traditional");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.home{
-    widows: 100%;
-    height: 100vh;
-    background-color: red;
-    background-image: url('SB.jpg');
-    background-size: cover;
-    background-position:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
+body {
+  font-family: "Noto Sans TC", sans-serif;
 }
-.about-me{
-    width:100%;
-    height:100vh;
-    background-color:blueviolet;
-    display:flex;
+nav {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.left{
-    width: 50%;
-    height: 100vh;
+nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  text-decoration: none;
 }
-.right{
-    width: 50%;
-    display: column;
+section {
+  height: 100vh;
+  width: 100%;
 }
-.homework{
-    width:100px;
-    height:100px;
-    background-color:lavender;
-    background-image:url('sb.jpg');
-    background-size: contain;
-    background-repeat:no-repeat;
-    background-position: center;
-    border: 1px solid red;
-    padding: 10px;
-    margin: 20px;
-    box-sizing:border-box;
 
+.home {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-h1{
-    font-size:55px;
-    font-family:font-family: 'Noto Sans TC', sans-serif;    
-}
-.大標題{
-color:red
-}
-.id{
-    font:arial
-}
+.circle {
+  background-color: rgba(0, 0, 0
